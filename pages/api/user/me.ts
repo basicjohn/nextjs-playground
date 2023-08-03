@@ -1,3 +1,7 @@
-export default function handler(req, res) {
-    res.status(200).json({ name: 'John Doe' });
+export default function handler(req: any, res: any) {
+  res.status(200).json({data :
+    {
+      name: 'John Doe'
+    }
+  });
 }
